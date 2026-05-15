@@ -46,7 +46,7 @@ export default function Campus() {
                         className="relative min-h-112 overflow-hidden rounded-[2rem] border border-black/8 lg:col-span-7"
                     >
                         <div role="img" aria-label="Smart classroom collaboration" className="absolute inset-0 bg-[url('/main/4.avif')] bg-cover bg-center transition duration-500 hover:scale-[1.03]" />
-                        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.04),rgba(17,17,17,0.52))]" />
+                        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4))]" />
                         <div className="absolute bottom-0 left-0 right-0 p-7">
                             <div className="w-fit rounded-full bg-white/86 px-3 py-1 text-sm font-semibold text-zinc-900">Smart Classrooms</div>
                             <p className="mt-4 max-w-md text-sm leading-7 text-white">Modern infrastructure and learning spaces built to inspire student growth and creativity.</p>
@@ -63,7 +63,7 @@ export default function Campus() {
                             className="relative min-h-52 overflow-hidden rounded-[2rem] border border-black/8"
                         >
                             <div role="img" aria-label="Innovation lab" className="absolute inset-0 bg-[url('/main/5.avif')] bg-cover bg-center transition duration-500 hover:scale-[1.03]" />
-                            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.04),rgba(17,17,17,0.58))]" />
+                            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))]" />
                             <div className="absolute bottom-0 left-0 right-0 p-6">
                                 <p className="text-lg font-semibold text-white">Startup Incubation</p>
                                 <p className="mt-2 text-sm leading-7 text-zinc-100">An innovation-focused ecosystem that encourages ideas, startups, and collaborative learning.</p>

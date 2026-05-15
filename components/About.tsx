@@ -49,7 +49,7 @@ export default function About() {
                         className="relative min-h-80 overflow-hidden rounded-[2rem] border border-black/10"
                     >
                         <div className="absolute inset-0 bg-[url('/main/2.avif')] bg-cover bg-center" aria-hidden="true" />
-                        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,17,17,0.3),rgba(17,17,17,0.62))]" />
+                        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,17,17,0.6),rgba(17,17,17,0.7))]" />
                         <div className="absolute bottom-0 left-0 right-0 p-7">
                             <p className="text-sm font-semibold tracking-[0.12em] text-[#f5eed7]/82">CAMPUS LIFE</p>
                             <p className="mt-3 max-w-lg text-2xl font-semibold leading-tight text-white">A learning environment shaped by collaboration, mentorship, and practical experience.</p>
@@ -64,7 +64,7 @@ export default function About() {
                         className="relative overflow-hidden rounded-[2rem] border border-black/12 shadow-[0_14px_34px_rgba(15,15,15,0.08)]"
                     >
                         <div className="absolute inset-0 bg-[url('/main/3.jpg')] bg-cover bg-center" aria-hidden="true" />
-                        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,17,17,0.35),rgba(17,17,17,0.75))]" />
+                        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,17,17,0.8),rgba(17,17,17,0.6))]" />
                         <div className="relative p-7">
                             <p className="text-sm font-semibold tracking-[0.12em] text-[#f5eed7]/78">STUDENT EXPERIENCE</p>
                             <h3 className="mt-4 text-2xl font-semibold text-white">Built to support growth inside and outside the classroom.</h3>

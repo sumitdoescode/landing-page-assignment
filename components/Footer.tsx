@@ -13,7 +13,7 @@ export const footerPrograms = ["Artificial Intelligence", "Full Stack Developmen
 
 export default function Footer() {
     return (
-        <footer id="contact" className="relative overflow-hidden border-t border-black/10 bg-black">
+        <footer id="contact" className="relative overflow-hidden border-t border-black/10 bg-[#171511]">
             <div className="mx-auto grid max-w-7xl gap-12 px-5 py-14 lg:grid-cols-[1fr_auto_auto] lg:px-8">
                 <div>
                     <div className="flex items-center gap-3">
