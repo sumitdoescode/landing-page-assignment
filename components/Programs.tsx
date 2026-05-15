@@ -1,7 +1,7 @@
 "use client";
 
+import { motion } from "motion/react";
 import { ArrowRight, Atom, Code2, DatabaseZap, LayoutPanelTop, LockKeyhole, Users } from "lucide-react";
-import { motion } from "framer-motion";
 
 export const programs = [
     {

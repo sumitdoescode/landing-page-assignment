@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { AnimatePresence, motion } from "motion/react";
 import { ArrowRight, GraduationCap, Menu, X } from "lucide-react";
-import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
 export const navItems = [

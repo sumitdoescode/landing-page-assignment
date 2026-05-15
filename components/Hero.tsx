@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowRight, Building2, BriefcaseBusiness, GraduationCap, Lightbulb, Play, Rocket, Star } from "lucide-react";
-import { animate, motion, useInView, useMotionValue, useMotionValueEvent } from "framer-motion";
+import { animate, motion, useInView, useMotionValue, useMotionValueEvent } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import Navbar from "./Navbar";
 
@@ -64,7 +64,6 @@ export default function Hero() {
     return (
         <section id="home" className="relative overflow-hidden border-b border-black/6">
             <div className="grid-pattern absolute inset-0 opacity-55" />
-            <div className="absolute inset-x-0 top-0 h-112 bg-[radial-gradient(circle_at_top_left,rgba(247,238,204,0.3),transparent_30%)]" />
 
             <Navbar />
 
