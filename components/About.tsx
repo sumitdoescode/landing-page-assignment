@@ -48,7 +48,7 @@ export default function About() {
                         transition={{ duration: 0.45, ease: "easeOut" }}
                         className="relative min-h-80 overflow-hidden rounded-[2rem] border border-black/10"
                     >
-                        <div className="absolute inset-0 bg-[url('/main/2.avif')] bg-cover bg-center" aria-hidden="true" />
+                        <div className="absolute inset-0 bg-[url('/main/2.jpg')] bg-cover bg-center" aria-hidden="true" />
                         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,17,17,0.6),rgba(17,17,17,0.7))]" />
                         <div className="absolute bottom-0 left-0 right-0 p-7">
                             <p className="text-sm font-semibold tracking-[0.12em] text-[#f5eed7]/82">CAMPUS LIFE</p>

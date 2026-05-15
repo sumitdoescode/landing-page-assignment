@@ -108,7 +108,7 @@ export default function Hero() {
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.72, delay: 0.15, ease: "easeOut" }} className="relative order-1 h-105 sm:h-135 lg:order-2 lg:h-162.5">
                     {/* Main Image */}
                     <div className="glow-border relative h-full overflow-hidden rounded-[2rem] border border-black/12 bg-[#241f16] p-3 shadow-[0_28px_90px_rgba(15,15,15,0.18)]">
-                        <img src="/main/1.avif" alt="Students collaborating in a modern campus environment" className="h-full w-full rounded-[1.5rem] object-cover" />
+                        <img src="/main/1.jpg" alt="Students collaborating in a modern campus environment" className="h-full w-full rounded-[1.5rem] object-cover" />
                     </div>
 
                     {/* Floating Card 1 */}
