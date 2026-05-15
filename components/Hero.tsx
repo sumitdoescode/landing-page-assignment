@@ -68,8 +68,8 @@ export default function Hero() {
 
             <Navbar />
 
-            <div className="relative z-10 mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl gap-16 px-5 pt-14 pb-20 lg:grid-cols-[minmax(0,1.04fr)_31rem] lg:items-center lg:px-8 lg:pt-20 lg:pb-24">
-                <div>
+            <div className="relative z-10 mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl gap-12 px-5 pt-8 pb-20 lg:grid-cols-[minmax(0,1.04fr)_31rem] lg:items-center lg:gap-16 lg:px-8 lg:pt-20 lg:pb-24">
+                <div className="order-2 lg:order-1">
                     <motion.h1
                         initial={{ opacity: 0, y: 28 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -106,28 +106,35 @@ export default function Hero() {
                     </motion.div>
                 </div>
 
-                <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.72, delay: 0.15, ease: "easeOut" }} className="relative lg:h-156">
+                <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.72, delay: 0.15, ease: "easeOut" }} className="relative order-1 h-105 sm:h-135 lg:order-2 lg:h-[650px]">
+                    {/* Main Image */}
                     <div className="glow-border relative h-full overflow-hidden rounded-[2rem] border border-black/12 bg-[#241f16] p-3 shadow-[0_28px_90px_rgba(15,15,15,0.18)]">
-                        <div role="img" aria-label="Students collaborating in a modern campus environment" className="h-full rounded-[1.5rem] bg-[url('/main/1.avif')] bg-cover bg-center" />
+                        <img src="/main/1.avif" alt="Students collaborating in a modern campus environment" className="h-full w-full rounded-[1.5rem] object-cover" />
                     </div>
 
+                    {/* Floating Card 1 */}
                     <div className="absolute -left-3 top-12 hidden w-56 lg:block">
                         <motion.div whileHover={{ y: -4 }} className="dark-panel rounded-2xl border border-black/30 p-4 shadow-[0_20px_50px_rgba(15,15,15,0.12)]">
                             <p className="text-sm font-semibold text-[#f5eed7]">{floatingCards[0].title}</p>
+
                             <p className="mt-2 text-sm leading-6 text-[#f5eed7]/72">{floatingCards[0].text}</p>
                         </motion.div>
                     </div>
 
+                    {/* Floating Card 2 */}
                     <div className="absolute -right-4 top-28 hidden w-52 xl:block">
                         <motion.div whileHover={{ y: -4 }} className="dark-panel rounded-2xl border border-black/30 p-4 shadow-[0_20px_50px_rgba(15,15,15,0.12)]">
                             <p className="text-sm font-semibold text-[#f5eed7]">{floatingCards[1].title}</p>
+
                             <p className="mt-2 text-sm leading-6 text-[#f5eed7]/72">{floatingCards[1].text}</p>
                         </motion.div>
                     </div>
 
+                    {/* Floating Card 3 */}
                     <div className="absolute bottom-8 left-8 hidden w-60 xl:block">
                         <motion.div whileHover={{ y: -4 }} className="dark-panel rounded-2xl border border-black/30 p-4 shadow-[0_20px_50px_rgba(15,15,15,0.12)]">
                             <p className="text-sm font-semibold text-[#f5eed7]">{floatingCards[2].title}</p>
+
                             <p className="mt-2 text-sm leading-6 text-[#f5eed7]/72">{floatingCards[2].text}</p>
                         </motion.div>
                     </div>
